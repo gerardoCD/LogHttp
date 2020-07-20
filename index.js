@@ -40,6 +40,15 @@ class LogHttp {
         console.log('\x1b[32m', '')
         console.log('\x1b[32m', '----------------------------------\n')
     }
+    static reponseFail(status,reponse){
+        var reponseString = JSON.stringify(reponse);
+        console.log('\x1b[31m', '')
+        console.log('\x1b[31m', '---------- Reponse End ----------\n')
+        console.log("\x1b[31m", `Status  : ${status} \n`);
+        console.log("\x1b[31m", `Reponse  : ${reponseString}\n`);
+        console.log('\x1b[31m', '')
+        console.log('\x1b[31m', '----------------------------------\n')
+    }
 
     static info(){
         console.log('\x1b[36m%s\x1b[0m', log)
