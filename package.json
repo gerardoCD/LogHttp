@@ -1,0 +1,19 @@
+{
+  "name": "log-http",
+  "version": "1.0.0",
+  "description": "This is a pretty log for services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerardoCD/LogHttp.git"
+  },
+  "author": "Gerardo Castillo Durán",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gerardoCD/LogHttp/issues"
+  },
+  "homepage": "https://github.com/gerardoCD/LogHttp#readme"
+}
