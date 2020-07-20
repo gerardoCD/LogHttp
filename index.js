@@ -1,4 +1,4 @@
-class LogHttp {
+module.exports = class LogHttp {
 
     static success(log) {
 
@@ -75,11 +75,11 @@ var jsonTest= {
     "Examole" : "Hello"
 
 }
-LogHttp.success(`OK`);
-LogHttp.fail('Wrong');
-LogHttp.beggin();
-LogHttp.request(jsonTest);
-LogHttp.reponseService(200,'localhost:8080/getCar',jsonTest,jsonTest,'Prueba de Titulo');
-LogHttp.reponseSuccess(200,jsonTest);
-LogHttp.end();
+// LogHttp.success(`OK`);
+// LogHttp.fail('Wrong');
+// LogHttp.beggin();
+// LogHttp.request(jsonTest);
+// LogHttp.reponseService(200,'localhost:8080/getCar',jsonTest,jsonTest,'Prueba de Titulo');
+// LogHttp.reponseSuccess(200,jsonTest);
+// LogHttp.end();
   

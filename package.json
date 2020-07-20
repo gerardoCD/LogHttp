@@ -1,6 +1,6 @@
 {
-  "name": "log-http",
-  "version": "1.0.0",
+  "name": "log-http-pretty",
+  "version": "1.0.1",
   "description": "This is a pretty log for services",
   "main": "index.js",
   "scripts": {
