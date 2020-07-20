@@ -9,8 +9,8 @@ Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
 Install and start the server.
 
 ```sh
-$ node install log-http
-$ node run start
+$ npm install log-http-pretty
+$ npm run start
 ```
 
 # Features!
